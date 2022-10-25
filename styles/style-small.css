@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
+/* Font Name: Patrick Hand SC */
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+/* Font Name: Marcellus */
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+/* Game of Thrones Font ;) */
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+/* Swing */
+@import url("https://fonts.googleapis.com/css2?family=Qwigley&display=swap");
+/* Qwigley - Swing Font */
+:root {
+  --light: #F4F3EE;
+  --beige: #BCB8B1;
+  --middle: #8A817C;
+  --dark: #463F3A;
+  --melon: #E0AFA0;
+  --img: url(/pics/background2.jpg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-image: var(--img);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero h1 {
+  font-family: Marcellus;
+  color: var(--dark);
+  font-size: 7vh;
+  padding-left: 6%;
+  padding-top: 8%;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: Flamenco;
+  letter-spacing: 1px;
+  color: var(--dark);
+  font-size: 15vh;
+  padding-left: 30%;
+  padding-top: 10%;
+  margin: 0;
+}
+
+.headlineDiv {
+  display: flex;
+  flex-direction: column;
+  background: rgba(244, 243, 238, 0.2);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 100vw;
+  height: 100vh;
+}/*# sourceMappingURL=style-small.css.map */

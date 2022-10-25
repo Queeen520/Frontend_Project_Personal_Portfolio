@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
+/* Font Name: Patrick Hand SC */
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+/* Font Name: Marcellus */
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+/* Game of Thrones Font ;) */
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+/* Swing */
+@import url("https://fonts.googleapis.com/css2?family=Qwigley&display=swap");
+/* Qwigley - Swing Font */
+/*
+<link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+*/
+:root {
+  --light: #F4F3EE;
+  --beige: #BCB8B1;
+  --middle: #8A817C;
+  --dark: #463F3A;
+  --melon: #E0AFA0;
+  --img: url(/pics/isabella.jpg);
+}
+
+* {
+  box-sizing: border-box;
+}/*# sourceMappingURL=style-middle.css.map */

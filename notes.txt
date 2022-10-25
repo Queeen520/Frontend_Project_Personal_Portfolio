@@ -1,0 +1,13 @@
+Media Queries : min 320px | tablet 768px - 1112px | Laptop and Bigger min 1366px
+
+
+
+    <link rel="stylesheet" media="screen and (min-width: 320px)" href="/styles/style-small.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="/styles/style-middle.css">
+
+
+----------------------------------------------------------------------------------
+
+2012: start working at the emergency control center - Vienna General Hospital 
+
+2020: start coding journey 
