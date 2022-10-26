@@ -156,3 +156,26 @@ nav {
   height: 100vh; 
   /*border: 2px solid black;*/
 }
+
+.timeline-section {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.timeline-left {
+  display: flex;
+  width: 50vw;
+  height: 100vh;
+  border: 2px solid black;
+
+}
+
+.timeline-right {
+  display: flex;
+  width: 50vw;
+  height: 100vh;
+  border: 2px solid black;
+
+}
