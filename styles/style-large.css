@@ -99,26 +99,32 @@ nav {
   margin-top: 10vh;
 }
 
-.about {
+.about-section {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.me {
   display: flex;
   flex-direction: row;
   width: 100vw;
   height: 100vh;
-
 }
 
 .me-pic {
   display: flex;
   justify-content: flex-end;
   width: 50vw;
-  height: 100vh;
-  border: 2px solid black;
+  height: 55vh;
+  /*border: 2px solid black;*/
 }
 
 .img-isabella {
   display: flex;
   border-radius: 1rem;
-  margin-right: 4%;
+  margin-right: 12%;
   margin-top: 4%;
 
 }
@@ -126,20 +132,27 @@ nav {
 .me-text {
   display: flex;
   width: 50vw;
-  height: 100vh;
-  border: 2px solid black;
+  height: 55vh;
+  /*border: 2px solid black;*/
 }
 
 .me-ul {
-  /*border: 2px solid black;*/
   list-style-type: none;
-  margin-right: 4%;
-  margin-top: 5%;
-  width: 15vw;
+  margin-left: 8%;
+  margin-top: 4%;
+  width: 25vw;
 }
 
 .me-ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+/* not visible at the beginning */
+.more {
+  display: flex;
+  width: 100vw;
+  height: 100vh; 
+  /*border: 2px solid black;*/
 }
