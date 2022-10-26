@@ -28,6 +28,35 @@ body {
   padding: 0;
 }
 
+/* NAVBAR RIGHT COLUMN
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  background-color: rgba(244, 243, 238, 0.2);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  margin-right: 5%;
+  margin-top: 5%;
+  width: 10%;
+  height: 10%;
+}
+
+.navLink {
+  display: flex;
+  align-self: flex-end;
+  text-decoration: none;
+  padding-left: 3%;
+  padding-right: 3%;
+  color: var(--dark);
+  text-shadow: 2px 2px 10px var(--light);
+  font-family: Aboreto;
+  font-size: 25px;
+  font-weight: 900;
+}
+*/
+
 .hero {
   display: flex;
   width: 100vw;
