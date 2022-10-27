@@ -284,9 +284,12 @@ body {
 }
 
 .right2 a {
+  display: flex;
   text-decoration: none;
   font-family: Tahoma;
   font-size: 14px;
+  padding-left: 3%;
+  padding-top: 2%;
   color: var(--dark);
 }
 
@@ -310,18 +313,22 @@ body {
   border: 2px solid black;
   height: 35vh;
   width: 25vw;
+  text-align: center;
 }
 .div2 { 
   grid-area: 1 / 2 / 2 / 3; 
   border: 2px solid black;
   height: 35vh;
   width: 25vw;
+  text-align: center;
+
 }
 .div3 { 
   grid-area: 1 / 3 / 2 / 4; 
   border: 2px solid black;
   height: 35vh;
   width: 25vw;
+  text-align: center;
 }
 
 .tech {
@@ -343,6 +350,16 @@ body {
   width: 100vw;
   display: flex;
   justify-content: space-around;
+}
+
+.icons1, .icons2, .icons3 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  width: 25%;
 }
 
 .contact {
@@ -371,16 +388,22 @@ body {
 }
 
 #LI {
-  width: 45px;
-  height: 45px;
+  padding-right: 1cm;
+  color: var(--dark);
 }
 
 #FB {
-  width: 45px;
-  height: 45px;
+padding-right: 1cm;
+color: var(--dark);
 }
 
 #GH {
-  width: 45px;
-  height: 45px;
+  color: var(--dark);
+
+}
+
+.dates {
+  font-family: Aboreto;
+  font-size: 20px;
+  font-weight: bold;
 }
