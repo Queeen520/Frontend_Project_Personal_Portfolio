@@ -44,7 +44,7 @@ body {
   text-decoration: none;
   padding-left: 1%;
   padding-right: 2%;
-  color: var(--dark);
+  color: black;
   font-family: Aboreto;
   font-size: 20px;
   font-weight: 900;
@@ -63,12 +63,32 @@ body {
   
 }
 
+#hero-h3 {
+  font-family: Tangerine;
+  color: black;
+  font-size: 12vh;
+  margin: 0;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+#hero-h4 {
+  font-family: Tangerine;
+  color: black;
+  font-size: 12vh;
+  margin: 0;
+  padding-top: 3%;
+  padding-left: 22%;
+
+}
+
 #hero-h1 {
   font-family: Tangerine;
   color: black;
   font-size: 12vh;
+  text-align: end;
   padding-top: 5%;
-  padding-left: 9%;
+  padding-right: 30%;
   margin: 0;
 }
 
@@ -77,8 +97,9 @@ body {
   font-family: Tangerine;
   color: black;
   font-size: 12vh;
-  padding-left: 20%;
-  padding-top: 2%;
+  text-align: end;
+  padding-right: 15%;
+  padding-top: 3%;
   margin: 0;
 }
 
@@ -121,15 +142,15 @@ body {
   display: flex;
   border-radius: 1rem;
   margin-right: 15%;
-  margin-top: 11%;
+  margin-top: 18%;
 
 }
 
 .me-text {
   display: flex;
   margin-left: -3%;
-  width: 55vw;
-  height: 30vh;
+  width: 60vw;
+  height: 35vh;
 }
 
 .me-ul {
@@ -177,8 +198,8 @@ body {
   display: flex;
   flex-direction: row;
   width: 100vw;
-  height: 100vh;
 }
+
 
 .timeline-section h3 {
   margin: 0;
@@ -189,7 +210,7 @@ body {
 
 .timeline-section p {
   margin: 0;
-  padding: 0;
+  padding: 2%;
   font-family: Calibri;
   font-size: 20px;
 }
@@ -199,7 +220,6 @@ body {
   flex-direction: column;
   align-items: flex-end;
   width: 50vw;
-  height: 100vh;
   border-right: 2px;
 
 }
@@ -210,7 +230,7 @@ body {
   justify-content: space-around;
   text-align: end;
   padding-right: 5%;
-  height: 20vh;
+  height: fit-content;
   width: 25vw;
 }
 
@@ -219,8 +239,8 @@ body {
   flex-direction: column;
   text-align: end;  
   padding-right: 5%;
-  margin-top: 20vh;
-  height: 20vh;
+  margin-top: 22%;
+  height: fit-content;
   width: 25vw;
 }
 
@@ -230,8 +250,8 @@ body {
   text-align: end;
   justify-content: flex-end;
   padding-right: 5%;
-  margin-top: 20vh;
-  height: 20vh;
+  margin-top: 24%;
+  height: fit-content;
   width: 25vw;
 }
 
@@ -240,7 +260,6 @@ body {
   flex-direction: column;
   align-items: flex-start;
   width: 50vw;
-  height: 100vh;
 
 }
 
@@ -249,8 +268,8 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 5%;
-  margin-top: 20vh;
-  height: 20vh;
+  margin-top: 20%;
+  height: fit-content;
   width: 25vw;
 }
 
@@ -259,8 +278,8 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 5%;
-  margin-top: 20vh;
-  height: 20vh;
+  margin-top: 22%;
+  height: fit-content;
   width: 25vw;
 }
 
@@ -275,7 +294,6 @@ body {
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 100vh;
 }
 
 .projects {
@@ -310,6 +328,9 @@ body {
   display: flex;
   flex-direction: column;
   width: 100vw;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
 }
 
 .tech h1 {
@@ -319,6 +340,7 @@ body {
 }
 
 .tech-img {
+  width: 100vw;
   display: flex;
   justify-content: space-around;
 }
@@ -348,3 +370,17 @@ body {
   justify-content: center;
 }
 
+#LI {
+  width: 45px;
+  height: 45px;
+}
+
+#FB {
+  width: 45px;
+  height: 45px;
+}
+
+#GH {
+  width: 45px;
+  height: 45px;
+}
