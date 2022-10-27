@@ -17,7 +17,7 @@
   --middle: #8A817C;
   --dark: #463F3A;
   --melon: #E0AFA0;
-  --img: url(/pics/background2.jpg);
+
 }
 
 
@@ -35,7 +35,7 @@ body {
   justify-content: flex-end;
   padding-top: 2%;
   width: 100vw;
-  height: 10vh;
+  height: 6vh;
 
 }
 
@@ -43,7 +43,7 @@ body {
   display: flex;
   text-decoration: none;
   padding-left: 1%;
-  padding-right: 1%;
+  padding-right: 3%;
   color: var(--dark);
   text-shadow: 2px 2px 10px var(--light);
   font-family: Aboreto;
@@ -57,28 +57,26 @@ body {
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  background-image: var(--img);
+  background-image: url(https://i.pinimg.com/564x/4d/2c/31/4d2c31ac59f49a07f1b707e0ca9dd3b8.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 #hero-h1 {
-  font-family: Marcellus;
+  font-family: Tangerine;
   color: var(--dark);
-  font-size: 9vh;
-  padding-left: 5%;
-  padding-top: 1rem;
+  font-size: 12vh;
+  padding-left: 7%;
   margin: 0;
 }
 
 
 #hero-h2 {
-  font-family: Marcellus;
+  font-family: Tangerine;
   color: var(--dark);
-  font-size: 9vh;
-  padding-left: 15%;
-  padding-top: 6%;
+  font-size: 12vh;
+  padding-left: 25%;
+  padding-top: 2%;
   margin: 0;
 }
 
@@ -128,15 +126,13 @@ body {
   display: flex;
   margin-left: -3%;
   width: 50vw;
-  height: 55vh;
-  /*border: 2px solid black;*/
+  height: 30vh;
 }
 
 .me-ul {
   list-style-type: none;
-  margin-left: 2%;
-  margin-top: 4%;
-  width: 25vw;
+  margin-top: 10%;
+  width: 35vw;
 }
 
 .me-ul li {
@@ -148,11 +144,10 @@ body {
   text-shadow: none;
   font-weight: bold;
   font-size: 17px;
-  letter-spacing: 1px;
 }
 
 .me-ul li h5 {
-  padding-left: 15%;
+  padding-left: 12%;
   font-family: Tahoma;
   font-weight: 300;
   font-size: 15px;
@@ -175,7 +170,17 @@ body {
 }
 
 .timeline-section h3 {
-  text-decoration: underline;
+  margin: 0;
+  padding: 2%;
+  font-family: Marcellus;
+  font-size: 25px;
+}
+
+.timeline-section p {
+  margin: 0;
+  padding: 0;
+  font-family: Calibri;
+  font-size: 20px;
 }
 
 .timeline-left {
@@ -184,24 +189,24 @@ body {
   align-items: flex-end;
   width: 50vw;
   height: 100vh;
+  border-right: 2px;
 
 }
 
 .left1 {
-  border-right: 2px solid black;
-  background-color: var(--melon);
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: end;
   padding-right: 5%;
   height: 20vh;
   width: 25vw;
 }
 
 .left2 {
-  border-right: 2px solid black;
-  background-color: var(--melon);
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  text-align: end;  
   padding-right: 5%;
   margin-top: 20vh;
   height: 20vh;
@@ -209,9 +214,9 @@ body {
 }
 
 .left3 {
-  border-right: 2px solid black;
-  background-color: var(--melon);
   display: flex;
+  flex-direction: column;
+  text-align: end;
   justify-content: flex-end;
   padding-right: 5%;
   margin-top: 20vh;
@@ -229,9 +234,9 @@ body {
 }
 
 .right1 {
-  border-left: 2px solid black;
-  background-color: var(--melon);
+  border-left: 2px solid var(--middle);
   display: flex;
+  flex-direction: column;
   padding-left: 5%;
   margin-top: 20vh;
   height: 20vh;
@@ -239,9 +244,9 @@ body {
 }
 
 .right2 {
-  border-left: 2px solid black;
-  background-color: var(--melon);
+  border-left: 2px solid var(--middle);
   display: flex;
+  flex-direction: column;
   padding-left: 5%;
   margin-top: 20vh;
   height: 20vh;
@@ -259,7 +264,7 @@ body {
     display: grid;
     margin: 5%;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 2%;
     grid-row-gap: 2%;
 }
@@ -282,21 +287,46 @@ body {
   height: 35vh;
   width: 25vw;
 }
-.div4 { 
-  grid-area: 2 / 1 / 3 / 2; 
-  border: 2px solid black;
-  height: 35vh;
-  width: 25vw;
+
+.tech {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
 }
-.div5 { 
-  grid-area: 2 / 2 / 3 / 3; 
-  border: 2px solid black;
-  height: 35vh;
-  width: 25vw;
+
+.tech h1 {
+  font-family: Aboreto;
+  font-size: 25px;
+  padding-left: 3%;
 }
-.div6 { 
-  grid-area: 2 / 3 / 3 / 4;
-  border: 2px solid black; 
-  height: 35vh;
-  width: 25vw;
+
+.tech-img {
+  display: flex;
+  justify-content: space-around;
 }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 35vh;
+  background-color: var(--beige);
+  padding-left: 3%;
+}
+
+.contact h1 {
+  font-family: Aboreto;
+  font-size: 25px;
+}
+
+.dates {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
