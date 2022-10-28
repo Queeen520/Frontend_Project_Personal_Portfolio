@@ -126,42 +126,49 @@ body {
 
 .me {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
 }
 
 .me-pic {
   display: flex;
-  justify-content: flex-end;
-  width: 50vw;
-  height: 50vh;
+  margin: auto;
+  width: 100vw;
   /*border: 2px solid black;*/
 }
 
 .img-isabella {
-  display: flex;
-  border-radius: 1rem;
-  margin-right: 15%;
-  margin-top: 22%;
+  display: block;
+  border-radius: 1.5rem;
+  padding: 4%;
+  margin-bottom: 5%;
 
 }
 
 .me-text {
   display: flex;
-  margin-left: -3%;
-  width: 60vw;
-  height: 35vh;
+  width: 100vw;
 }
 
 .me-ul {
   list-style-type: none;
-  margin-top: 10%;
-  width: 55vw;
+  margin: 4%;
+  padding-left: 5%;
+  width: 100vw;
+  height: fit-content;
+  background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 7px 25px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 5px;
+border: 1px rgba( 255, 255, 255, 0.18 );
 }
 
 .me-ul li {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .me-ul li a {
@@ -180,7 +187,7 @@ body {
 }
 
 .me-ul li h5 {
-  padding-left: 12%;
+  padding-left: 10%;
   font-family: Tahoma;
   font-weight: 300;
   font-size: 15px;
@@ -200,14 +207,16 @@ body {
   flex-direction: row;
   width: 100vw;
   height: fit-content;
+  margin: 0;
+  padding: 1%;
 }
 
 
 .timeline-section h3 {
   margin: 0;
-  padding: 2%;
+  padding-bottom: 2%;
   font-family: Marcellus;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .timeline-section p {
@@ -220,16 +229,15 @@ body {
 .timeline-left {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  width: 50%;
-  padding-right: 5%;
+  text-align: right;
+  width: 50vw;
+  padding-right: 3%;
 
 }
 
 .left1 {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   text-align: end;
   height: fit-content;
   width: 100%;
@@ -240,7 +248,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   text-align: end;  
-  margin-top: 50%;
+  margin-top: 105%;
   height: fit-content;
   width: 100%;
 }
@@ -250,7 +258,7 @@ body {
   flex-direction: column;
   text-align: end;
   justify-content: flex-end;
-  margin-top: 50%;
+  margin-top: 115%;
   height: fit-content;
   width: 100%;
 }
@@ -269,7 +277,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 5%;
-  margin-top: 40%;
+  margin-top: 105%;
   height: fit-content;
   width: 100%;
 }
@@ -279,7 +287,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 5%;
-  margin-top: 40%;
+  margin-top: 90%;
   height: fit-content;
   width: 100%;
 }
@@ -303,10 +311,10 @@ body {
 .projects {
     display: grid;
     margin: 5%;
-    padding-top: 5%;
+    padding-top: 15%;
     padding-bottom: 5%;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 2%;
     grid-row-gap: 2%;
 }
@@ -314,14 +322,14 @@ body {
 .div1 { 
   grid-area: 1 / 1 / 2 / 2; 
   border: 2px solid black;
-  height: 35vh;
+  height: 25vh;
   width: 25vw;
   text-align: center;
 }
 .div2 { 
   grid-area: 1 / 2 / 2 / 3; 
   border: 2px solid black;
-  height: 35vh;
+  height: 25vh;
   width: 25vw;
   text-align: center;
 
@@ -329,7 +337,28 @@ body {
 .div3 { 
   grid-area: 1 / 3 / 2 / 4; 
   border: 2px solid black;
-  height: 35vh;
+  height: 25vh;
+  width: 25vw;
+  text-align: center;
+}
+.div4 { 
+  grid-area: 2 / 1 / 3 / 2;
+  border: 2px solid black;
+  height: 25vh;
+  width: 25vw;
+  text-align: center; 
+}
+.div5 { 
+  grid-area: 2 / 2 / 3 / 3; 
+  border: 2px solid black;
+  height: 25vh;
+  width: 25vw;
+  text-align: center;
+}
+.div6 { 
+  grid-area: 2 / 3 / 3 / 4; 
+  border: 2px solid black;
+  height: 25vh;
   width: 25vw;
   text-align: center;
 }
@@ -346,23 +375,25 @@ body {
 .tech h1 {
   font-family: Aboreto;
   font-size: 25px;
-  padding-left: 3%;
+  margin: auto;
 }
 
 .tech-img {
   width: 100vw;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-around;
 }
 
 .icons1, .icons2, .icons3 {
   margin-top: 5%;
-  padding: 0;
+  padding: 5%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: baseline;
-  width: 25%;
+  align-items: center;
+  width: 100%;
 }
 
 .contact {
@@ -378,27 +409,31 @@ body {
 .contact h1 {
   font-family: Aboreto;
   font-size: 25px;
+  padding-left: 5%;
+
 }
 
 .dates {
   display: flex;
   flex-direction: column;
+  font-family: Aboreto;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 5%;
 }
 
 .icons {
   position: absolute;
-  right: 10%;
-  bottom: 8%;
+  bottom: 20%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  width: 85%;
+  height: fit-content;
   justify-content: space-around;
-  align-items: flex-end;
-  width: 20%;
-  height: 5cm;
 }
 
 #LI {
-
   color: var(--dark);
 }
 
@@ -412,8 +447,3 @@ color: var(--dark);
 
 }
 
-.dates {
-  font-family: Aboreto;
-  font-size: 20px;
-  font-weight: bold;
-}
