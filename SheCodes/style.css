@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Pavanam&display=swap');
+/* PAVANAM - normaler Text */
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap');
+/* CHARMONMAN - vl Überschrift */
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+/* GOTU - normaler Text */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+/* CINZEL - vl Button */
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+/* QIGLEY - geschwungene Schrift */
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+/* Nothing You Could Do */
+
+@media screen and (min-width: 340px) {
+ 
+    :root {
+        --blue: #1e90ff;
+      }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    h1 {
+        display: flex;
+        margin: auto;
+        padding-top: 4px;
+        justify-content: center;
+        font-family: CHARMONMAN;
+        font-size: 3.5rem;
+    
+    }
+    
+    .img-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        margin: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    h3, h4 {
+        display: flex;
+        width: 100VW;
+        padding: 2%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.8rem;
+        font-family: PAVANAM;
+    }
+    
+    .text-1 {
+        display: flex;
+        width: 100vw;
+    height: 100vh;        
+    margin: auto;
+        padding: 2%;
+        font-size: 16px;
+        font-family: gotu;
+        text-align: center;
+    }
+    
+    .img-elemente {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 2%;
+    }
+    
+    .s-box {
+        display: flex;
+        width: 100vw;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        margin-left: -2rem;
+        margin-top: 2rem;
+    }
+    
+    p {
+        font-size: 10px;
+
+    }
+    
+    .feu, .was, .erd, .luf {
+        display: flex;
+        margin: 0;
+        width: 90vw;
+        height: fit-content;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 15px;
+        font-size: 10px;
+        font-family: gotu;
+    }
+    
+    .feu {
+        background: rgb(255, 252, 170);
+        background: linear-gradient(280deg, rgba(255, 252, 170, 1) 0%, rgba(255, 84, 46, 1) 100%);
+    }
+    
+    .was {
+        background: rgb(170, 255, 248);
+        background: linear-gradient(280deg, rgba(170, 255, 248, 1) 0%, rgba(13, 51, 198, 1) 100%);
+    }
+    
+    .erd {
+        background: rgb(182, 236, 151);
+            background: linear-gradient(280deg, rgba(182, 236, 151, 1) 0%, rgba(76, 42, 0, 0.8998949921765581) 100%);
+    }
+    
+    .luf {
+        background: rgb(227, 228, 229);
+        background: linear-gradient(280deg, rgba(227, 228, 229, 1) 0%, rgba(96, 169, 202, 1) 100%);
+    }
+    
+    .containerh2 {
+        display: flex;
+        width: 100vw;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-family: PAVANAM;
+        color: var(--blue);
+    }
+    
+    h5 {
+        display: flex;
+        width: 100vw;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        font-size: 23px;
+        font-family: PAVANAM;
+        padding-bottom: 10%;
+    }
+    
+    button {
+        display: flex;
+        width: 7cm;
+        height: 1.2cm;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        font-family: cinzel;
+        font-size: 20px;
+        background: rgba(156, 162, 184, 0.6);
+        box-shadow: 2px 6px 15px 2px rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 15px;
+        border: 2px solid rgba(255, 255, 255, 0.18);
+    }
+    
+    footer {
+        display: flex;
+        width: 100vw;
+        padding-top: 50px;
+        padding-bottom: 2px;
+        justify-content: center;
+        text-align: center;
+        font-size: 11px;
+        font-family: Nothing You Could Do;
+    }
+}
+
+
+
+@media screen and (min-width: 1112px) {
+    
+
+:root {
+    --blue: #1e90ff;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    display: grid;
+    margin: auto;
+    padding-top: 4px;
+    justify-content: center;
+    font-family: CHARMONMAN;
+    font-size: 2cm;
+
+}
+
+.img-1 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h3, h4 {
+    display: flex;
+    width: 20cm;
+    height: 2cm;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: PAVANAM;
+}
+
+.text-1 {
+    display: flex;
+    width: 25cm;
+    height: 10cm;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    font-size: 18px;
+    font-family: gotu;
+    text-align: center;
+}
+
+.img-elemente {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 0.8cm;
+    padding-bottom: 0.8cm;
+}
+
+.s-box {
+    display: flex;
+    width: 20cm;
+    height: 12cm;
+    margin: auto;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p {
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.feu, .was, .erd, .luf {
+    display: flex;
+    width: 20cm;
+    height: 2cm;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: gotu;
+}
+
+.feu {
+    background: rgb(255, 252, 170);
+    background: linear-gradient(280deg, rgba(255, 252, 170, 1) 0%, rgba(255, 84, 46, 1) 100%);
+}
+
+.was {
+    background: rgb(170, 255, 248);
+    background: linear-gradient(280deg, rgba(170, 255, 248, 1) 0%, rgba(13, 51, 198, 1) 100%);
+}
+
+.erd {
+    background: rgb(182, 236, 151);
+        background: linear-gradient(280deg, rgba(182, 236, 151, 1) 0%, rgba(76, 42, 0, 0.8998949921765581) 100%);
+}
+
+.luf {
+    background: rgb(227, 228, 229);
+    background: linear-gradient(280deg, rgba(227, 228, 229, 1) 0%, rgba(96, 169, 202, 1) 100%);
+}
+
+.containerh2 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: PAVANAM;
+    color: var(--blue);
+}
+
+h5 {
+    display: flex;
+    width: 20cm;
+    height: 2cm;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: PAVANAM;
+    padding-top: 1cm;
+    padding-bottom: 2cm;
+}
+
+button {
+    display: flex;
+    width: 7cm;
+    height: 1.2cm;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-family: cinzel;
+    font-size: 20px;
+    background: rgba(156, 162, 184, 0.6);
+    box-shadow: 2px 6px 25px 2px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+footer {
+    display: flex;
+    width: 10cm;
+    padding-top: 50px;
+    padding-bottom: 2px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-family: Nothing You Could Do;
+}
+}
